@@ -15,7 +15,7 @@ public class MinioConfig {
     private String secretKey;
 
     @Bean
-    public MinioClient MinioConfig() {
+    public MinioClient minioClient() {
         return MinioClient.builder()
                 .endpoint("http://localhost:9000")
                 .credentials(
