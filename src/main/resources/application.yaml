@@ -1,0 +1,19 @@
+spring:
+    application:
+        name: jir-minio-service
+
+server:
+    servlet:
+        context-path: /jir-minio-service
+    port: 8001
+
+
+springdoc:
+    swagger-ui:
+        path: /swagger-ui.html
+
+minio:
+    url: http://localhost:9000
+    bucketName: data1-1
+    accessKey: EPcJpP2M4az40nXzzfrt
+    secretKey: IjXmSnIV3a4T69UVzJcc5cSNv2xBq5BApI1mz0zW
