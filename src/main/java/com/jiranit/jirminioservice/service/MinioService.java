@@ -21,4 +21,12 @@ public class MinioService {
         minioUtils.uploadFile(file);
     }
 
+    public void removeFile(String objectName) {
+        minioUtils.removeFile(objectName);
+    }
+
+    public void downloadObject (String objectName) {
+        minioUtils.downloadObject(objectName);
+    }
+
 }
